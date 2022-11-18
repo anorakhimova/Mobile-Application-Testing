@@ -1,0 +1,63 @@
+﻿"Issue Id","Project","Tags","Summary","Reporter","Created","Updated","Resolved","Priority","Type","State","Assignee","Sprints","Story points","Environment","QASE TC # (only for bug)","Description","Votes"
+"G11-249","group1.1","Star","Statistics doesn't show completed tasks","arakhimova","12 Nov 2022","12 Nov 2022",,"Major","Bug","Open","Unassigned","Нет версии исправления",,"Samsung Galaxy S9+ Android 10","G13-277","**Str:**
+
+1. Install the application ""TO-DO-MVP""  on real device Samsung Galaxy S9+
+2. Open the application
+3. Create 5 active tasks
+4. Check 2 tasks as completed
+5. Tap on hamburger menu 
+6. Tap on statistics
+
+**Result:**  Active tasks: 3   Completed tasks: 0
+
+**Expected result:** Active tasks: 3   Completed tasks: 2","0"
+"G11-251","group1.1","Star","""Clear completed"" button in kebab menu doesnt delete complited tasks","arakhimova","12 Nov 2022","12 Nov 2022",,"Major","Bug","Open","Unassigned","Нет версии исправления",,"Samsung Galaxy S9+ Android 10","G13-286","**STR:**
+
+1. Install the application ""TO-DO-MVP""  on real device Samsung Galaxy S9+
+2. Open the application
+3. Create 5 active tasks
+4. Check 2 tasks as completed
+5. Tap on kebab menu
+6. Tap on ""clear complited"" button
+
+**Result:** Completed tasks are not deleted from all TO-DOs
+
+**Expected result:** Completed tasks are deleted from all TO-DOs","0"
+"G11-252","group1.1","Star","Taping on ""refresh"" button in kebab menu closes app and deletes all TO-DOs","arakhimova","12 Nov 2022","12 Nov 2022",,"Show-stopper","Bug","Open","Unassigned","Нет версии исправления",,"Samsung Galaxy S9+ Android 10","G13-287","**STR:**
+
+1. Install the application ""TO-DO-MVP"" on real device Samsung Galaxy S9+
+2. Open the application
+3. Create 5 active tasks
+4. Check 2 tasks as completed
+5. Tap on kebab menu
+6. Tap on ""refresh"" button
+
+**Result:** Application is c;osed and all TO-DOs are deleted
+
+**Expected result:** All TO-DOs is refreshed","0"
+"G11-250","group1.1","Star","Taping on ""Active"" button in strawberry menu shows all TO-DOs","arakhimova","12 Nov 2022","12 Nov 2022",,"Major","Bug","Open","Unassigned","Нет версии исправления",,"Samsung Galaxy S9+ Android 10","G13-283","Str:
+
+1. Install the application ""TO-DO-MVP""  on real device Samsung Galaxy S9+
+2. Open the application
+3. Create 5 active tasks
+4. Check 2 tasks as completed
+5. Tap on strawberry menu 
+6. Tap on ""Active"" button in strawberry menu
+
+**Result:** All TO-DOs is shown
+
+**Expected result:** Active TO-DOs is shown","0"
+"G11-3","group1.1","","#11 Mobile App Testing","root","10 Sep 2022","12 Nov 2022",,"Critical","Epic","Open","Unassigned","Нет версии исправления",,"No environment","No qase tc # (only for bug)",,"0"
+"G11-248","group1.1","Star","Mobile App Testing. Anora Rakhimova","arakhimova","11 Nov 2022","12 Nov 2022",,"Normal","Task","Open","Unassigned","Нет версии исправления",,"Samsung Galaxy S9+ Android 10","No qase tc # (only for bug)",,"0"
+"G11-253","group1.1","Star","Created tasks are deleted after application is closed","arakhimova","12 Nov 2022","12 Nov 2022",,"Critical","Bug","Open","Unassigned","Нет версии исправления",,"Samsung Galaxy S9+ Android 10","G13-295","Str:
+
+1. Install the application ""TO-DO-MVP"" on real device Samsung Galaxy S9+
+2. Open the application
+3. Create 5 active tasks
+4. Check 2 tasks as completed
+5. Close application on phone
+6. Open application
+
+Result: To-do list is empty
+
+Expectes result: Created tasks were saved in all TO-DOs","0"
